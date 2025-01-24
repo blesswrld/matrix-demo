@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1rem;
+  color: #555;
+  margin-right: 10px;
+}
+
+input {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #5f9ea0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #5f9ea0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a8a8a;
+}
+
+#matrixContainer {
+  margin-top: 30px;
+  display: inline-block;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #333;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+td:hover {
+  background-color: #dcdcdc;
+}
